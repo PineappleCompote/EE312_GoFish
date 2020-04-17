@@ -49,4 +49,26 @@ int main(){
     for(int i = 0; i < 52; i++){
         cout << "Card: " << d0.dealCard().toString() << " Num cards left: " << d0.size() << endl;
     }
+
+
+    cout << endl << endl;
+    cout << "Testing Player......" << endl;
+
+    Deck newDeck = Deck();
+    newDeck.shuffle();
+
+    Player p1 = Player("Bob");
+    Player p2 = Player("Amy");
+
+    cout << "Player 1 is " << p1.getName() << endl;
+    cout << "Player 2 is " << p2.getName() << endl;
+
+    for(int i = 0; i < 7; i ++){
+        p1.addCard(newDeck.dealCard());
+        p2.addCard(newDeck.dealCard());
+    }
+
+    cout << "Size of deck: " << newDeck.size() << endl;
+
+
 }
