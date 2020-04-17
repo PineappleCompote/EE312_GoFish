@@ -1,0 +1,214 @@
+Alice's initial hand: Qc 4s 2c 
+Alice's initial books: 10c 10d 7h 7c 
+Ben's initial hand: 8h 6s 3s 
+Ben's initial books: 2d 2h 5h 5s 
+
+Alice asks, "Ben, do you have a 12?"
+Ben answers, "Go Fish!"
+Alice drew 9s.
+
+Ben asks, "Alice, do you have a 8?"
+Alice answers, "Go Fish!"
+Ben drew 5d.
+
+Alice asks, "Ben, do you have a 2?"
+Ben answers, "Go Fish!"
+Alice drew 10h.
+
+Ben asks, "Alice, do you have a 3?"
+Alice answers, "Go Fish!"
+Ben drew 3d.
+
+Alice asks, "Ben, do you have a 12?"
+Ben answers, "Go Fish!"
+Alice drew 9c.
+
+Ben asks, "Alice, do you have a 8?"
+Alice answers, "Go Fish!"
+Ben drew Qh.
+
+Alice asks, "Ben, do you have a 2?"
+Ben answers, "Go Fish!"
+Alice drew 7s.
+
+Ben asks, "Alice, do you have a 5?"
+Alice answers, "Go Fish!"
+Ben drew Ad.
+
+Alice asks, "Ben, do you have a 12?"
+Ben answers, "yes, I do."
+Ben handed over Qh.
+Alice current books: 10c 10d 7h 7c 9c 9s Qh Qc 
+
+Alice asks, "Ben, do you have a 10?"
+Ben answers, "Go Fish!"
+Alice drew Kd.
+
+Ben asks, "Alice, do you have a 5?"
+Alice answers, "Go Fish!"
+Ben drew Ks.
+
+Alice asks, "Ben, do you have a 4?"
+Ben answers, "Go Fish!"
+Alice drew 10s.
+
+Ben asks, "Alice, do you have a 8?"
+Alice answers, "Go Fish!"
+Ben drew 4h.
+
+Alice asks, "Ben, do you have a 7?"
+Ben answers, "Go Fish!"
+Alice drew Ah.
+
+Ben asks, "Alice, do you have a 8?"
+Alice answers, "Go Fish!"
+Ben drew 8c.
+
+Alice asks, "Ben, do you have a 4?"
+Ben answers, "yes, I do."
+Ben handed over 4h.
+Alice current books: 10c 10d 7h 7c 9c 9s Qh Qc 10s 10h 4h 4s 
+
+Alice asks, "Ben, do you have a 13?"
+Ben answers, "yes, I do."
+Ben handed over Ks.
+Alice current books: 10c 10d 7h 7c 9c 9s Qh Qc 10s 10h 4h 4s Ks Kd 
+
+Alice asks, "Ben, do you have a 2?"
+Ben answers, "Go Fish!"
+Alice drew 6c.
+
+Ben asks, "Alice, do you have a 6?"
+Alice answers, "yes, I do."
+Alice handed over 6c.
+Ben current books: 2d 2h 5h 5s 3d 3s 8c 8h 6c 6s 
+
+Ben asks, "Alice, do you have a 5?"
+Alice answers, "Go Fish!"
+Ben drew As.
+
+Alice asks, "Ben, do you have a 2?"
+Ben answers, "Go Fish!"
+Alice drew 3h.
+
+Ben asks, "Alice, do you have a 5?"
+Alice answers, "Go Fish!"
+Ben drew Kc.
+
+Alice asks, "Ben, do you have a 1?"
+Ben answers, "Go Fish!"
+Alice drew 6h.
+
+Ben asks, "Alice, do you have a 5?"
+Alice answers, "Go Fish!"
+Ben drew Jh.
+
+Alice asks, "Ben, do you have a 2?"
+Ben answers, "Go Fish!"
+Alice drew Ac.
+
+Ben asks, "Alice, do you have a 5?"
+Alice answers, "Go Fish!"
+Ben drew Jd.
+
+Alice asks, "Ben, do you have a 3?"
+Ben answers, "Go Fish!"
+Alice drew 2s.
+
+Ben asks, "Alice, do you have a 5?"
+Alice answers, "Go Fish!"
+Ben drew 9d.
+
+Alice asks, "Ben, do you have a 7?"
+Ben answers, "Go Fish!"
+Alice drew Qd.
+
+Ben asks, "Alice, do you have a 5?"
+Alice answers, "Go Fish!"
+Ben drew 8d.
+
+Alice asks, "Ben, do you have a 6?"
+Ben answers, "Go Fish!"
+Alice drew 7d.
+
+Ben asks, "Alice, do you have a 9?"
+Alice answers, "Go Fish!"
+Ben drew 9h.
+
+Alice asks, "Ben, do you have a 3?"
+Ben answers, "Go Fish!"
+Alice drew Qs.
+
+Ben asks, "Alice, do you have a 5?"
+Alice answers, "Go Fish!"
+Ben drew Js.
+
+Alice asks, "Ben, do you have a 3?"
+Ben answers, "Go Fish!"
+Alice drew Kh.
+
+Ben asks, "Alice, do you have a 8?"
+Alice answers, "Go Fish!"
+Ben drew 3c.
+
+Alice asks, "Ben, do you have a 3?"
+Ben answers, "yes, I do."
+Ben handed over 3c.
+Alice current books: 10c 10d 7h 7c 9c 9s Qh Qc 10s 10h 4h 4s Ks Kd Ac Ah 2s 2c 7d 7s Qs Qd 3c 3h 
+
+Alice asks, "Ben, do you have a 6?"
+Ben answers, "Go Fish!"
+Alice drew 4d.
+
+Ben asks, "Alice, do you have a 8?"
+Alice answers, "Go Fish!"
+Ben drew 4c.
+
+Alice asks, "Ben, do you have a 6?"
+Ben answers, "Go Fish!"
+Alice drew Jc.
+
+Ben asks, "Alice, do you have a 5?"
+Alice answers, "Go Fish!"
+Ben drew 5c.
+
+Alice asks, "Ben, do you have a 4?"
+Ben answers, "yes, I do."
+Ben handed over 4c.
+Alice current books: 10c 10d 7h 7c 9c 9s Qh Qc 10s 10h 4h 4s Ks Kd Ac Ah 2s 2c 7d 7s Qs Qd 3c 3h 4c 4d 
+
+Alice asks, "Ben, do you have a 6?"
+Ben answers, "Go Fish!"
+Alice drew 8s.
+
+Ben asks, "Alice, do you have a 13?"
+Alice answers, "yes, I do."
+Alice handed over Kh.
+Ben current books: 2d 2h 5h 5s 3d 3s 8c 8h 6c 6s As Ad Jd Jh 9h 9d 5c 5d Kh Kc 
+
+Ben asks, "Alice, do you have a 8?"
+Alice answers, "yes, I do."
+Alice handed over 8s.
+Ben current books: 2d 2h 5h 5s 3d 3s 8c 8h 6c 6s As Ad Jd Jh 9h 9d 5c 5d Kh Kc 8s 8d 
+
+Ben asks, "Alice, do you have a 11?"
+Alice answers, "yes, I do."
+Alice handed over Jc.
+Ben current books: 2d 2h 5h 5s 3d 3s 8c 8h 6c 6s As Ad Jd Jh 9h 9d 5c 5d Kh Kc 8s 8d Jc Js 
+
+Ben ran out of cards and drew 6d.
+
+Alice asks, "Ben, do you have a 6?"
+Ben answers, "yes, I do."
+Ben handed over 6d.
+Alice current books: 10c 10d 7h 7c 9c 9s Qh Qc 10s 10h 4h 4s Ks Kd Ac Ah 2s 2c 7d 7s Qs Qd 3c 3h 4c 4d 6d 6h 
+
+Deck is out of Cards!
+Game over!
+Alice's books are: 10c 10d 7h 7c 9c 9s Qh Qc 10s 10h 4h 4s Ks Kd Ac Ah 2s 2c 7d 7s Qs Qd 3c 3h 4c 4d 6d 6h 
+Ben's books are: 2d 2h 5h 5s 3d 3s 8c 8h 6c 6s As Ad Jd Jh 9h 9d 5c 5d Kh Kc 8s 8d Jc Js 
+
+Alice won with 14 books!
+Ben only had 12 books.
+
+
