@@ -9,7 +9,37 @@
 using namespace std;
 
 int main(){
+	Player p1 = Player("Alice");
+	Player p2 = Player("Ben");
 
+	Deck d = Deck();
+	d.shuffle();
+
+	for(int i = 0; i < 7; i++){
+		p1.addCard(d.dealCard());
+		p2.addCard(d.dealCard());
+	}
+
+
+	Card check[4];
+
+	while(true){
+		Card choice1 = p1.chooseCardFromHand();
+		cout << p1.getName() << " asks " << p2.getName() << " do you have a " << choice1.getRank() << "?\n";
+		if(p2.rankInHand(choice1)){
+			check[0] = Card(choice1.getRank(), Card::spades);
+			check[1] = Card(choice1.getRank(), Card::diamonds);
+			check[2] = Card(choice1.getRank(), Card::clubs);
+			check[3] = Card(choice1.getRank(), Card::hearts);
+			for(int i = 0; i < 4; i++){
+				if(p2.cardInHand(check[i])){
+					p2.removeCardFromHand(check[i]);
+					p1.addCard(check[i]);
+				}
+			}
+		}
+	}
+/*
     cout << "Testing Card class..." << endl;
     Card c0 = Card();
     Card c1 = Card(5, Card::hearts);
@@ -70,5 +100,11 @@ int main(){
 
     cout << "Size of deck: " << newDeck.size() << endl;
 
+	
+	cout << p1.showHand();
+	cout << p1.showBooks();
+	cout << p2.showHand();
+	cout << p2.showBooks();
+*/	
 
 }

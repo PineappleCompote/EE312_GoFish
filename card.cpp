@@ -21,10 +21,10 @@ Card::Card(int rank, Suit s){
 }
 
 string Card::toString() const {
-    string strCard;
+    std::string strCard;
 
     if((myRank > 1) && (myRank < 11)){
-        strCard = to_string(myRank);
+        strCard = std::to_string(myRank);
     }
     else if (myRank == 1){
         strCard = 'A';
@@ -103,21 +103,9 @@ string Card::rankString(int r) const {
 }
 
 bool Card::operator==(const Card &rhs) const {
-    if(myRank == rhs.myRank){
-        if(mySuit == rhs.mySuit){
-            return true;
-        }
-    }
-
-    return false;
+    return (myRank == rhs.myRank && mySuit == rhs.mySuit);
 }
 
 bool Card::operator!=(const Card &rhs) const {
-    if(myRank == rhs.myRank){
-        if(mySuit == rhs.mySuit){
-            return false;
-        }
-    }
-
-    return true;
+    return !(myRank == rhs.myRank && mySuit == rhs.mySuit);
 }

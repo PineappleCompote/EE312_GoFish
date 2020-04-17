@@ -17,7 +17,18 @@ Player::Player() {
 }
 
 void Player::addCard(Card c) {
-    myHand.push_back(c);
+	//if new card makes a pair, add to book and remove old card from hand
+	if(rankInHand(c)){
+		for(int i = 0; i < myHand.size(); i++){
+			if(myHand[i].getRank() == c.getRank()){
+				bookCards(c, myHand[i]);
+				removeCardFromHand(myHand[i]);
+			}
+		}
+	}
+
+	else
+		myHand.push_back(c);
 }
 
 void Player::bookCards(Card c1, Card c2) {
@@ -40,9 +51,6 @@ bool Player::checkHandForBook(Card &c1, Card &c2) {
     return false;
 }
 
-// NOT SURE WHAT THE DIFFERENCE BETWEEN rankInHand and cardInHand is
-// Don't we only check for the rank anyway?
-
 bool Player::rankInHand(Card c) const {
     for(int i = 0; i < myHand.size(); i++){
         if(myHand[i].getRank() == c.getRank()){
@@ -52,10 +60,13 @@ bool Player::rankInHand(Card c) const {
     return false;
 }
 
+
 // TODO: Come up with a strategy for this function (is there a way to guess what the other players have?)
 
 Card Player::chooseCardFromHand() const {
-    Card c = myHand[0];
+ 	srand(time(0)); 
+	int ind = rand() % myHand.size();   
+	return  myHand[ind];
 }
 
 bool Player::cardInHand(Card c) const {
@@ -72,8 +83,39 @@ Card Player::removeCardFromHand(Card c) {
     for(int i = 0; i < myHand.size(); i++){
         if(myHand[i] == c){
             returnCard = myHand[i];
-            myHand.erase(myHand.begin()+(i-1));
+            myHand.erase(myHand.begin()+ i);//I think it should be +i instead of +(i-1)
             return returnCard;
         }
     }
 }
+
+string Player::showHand() const{
+	string ret = "";
+	if(!myHand.empty()){
+		for(int i = 0; i < myHand.size(); i++)
+			 ret += myHand.at(i).toString() + " ";
+	}
+	return ret + "\n";
+}
+
+string Player::showBooks() const{
+	string ret = "";
+	if(!myBook.empty()){
+		for(int i = 0; i < myBook.size(); i++)
+			ret += myBook[i].toString() + " ";
+	}
+	return ret + "\n";	
+}
+
+int Player::getHandSize() const{
+	return myHand.size();
+}
+
+int Player::getBookSize() const{
+	return myBook.size();
+}
+
+
+
+
+

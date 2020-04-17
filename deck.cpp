@@ -35,8 +35,7 @@ Deck::Deck(){
 }
 
 int Deck::size() const {
-    int deckSize = 52 - (myIndex);
-    return deckSize;
+    return SIZE - (myIndex);
 }
 
 Card Deck::dealCard() {
@@ -45,11 +44,13 @@ Card Deck::dealCard() {
     return deal;
 }
 
+//resets the deck into random order
+//note this changes deck size back to 52
 void Deck::shuffle() {
     myIndex = 0;
     Card temp;
     srand(time(0));
-    for(int i = 0; i < SIZE - 1; i++){
+    for(int i = 0; i < SIZE - 2; i++){
         int j = rand() % (SIZE - i) + i;
         temp = myCards[i];
         myCards[i] = myCards[j];
